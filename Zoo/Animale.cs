@@ -24,10 +24,10 @@ public abstract class Animale
     {
         throw new NotImplementedException();
     }
-
+    
     public virtual string Mangia()
     {
-        throw new NotImplementedException();
+        return "L'animale sta mangiando...";
     }
 
     public virtual string GetInfo()
