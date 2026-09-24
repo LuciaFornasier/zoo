@@ -1,12 +1,12 @@
 ﻿namespace Zoo;
 
-public class leone:Animale
+public class Leone:Animale
 {
-    private int volumeRuggito;
+    
     public int VolumeRuggito
     {
-        get => volumeRuggito;
-        set => volumeRuggito = (value < 1 || value > 10) ? 1 : value;
+        get => VolumeRuggito;
+        set => VolumeRuggito = (value < 1 || value > 10) ? 1 : value;
     }
 
     public override string FaiVerso()

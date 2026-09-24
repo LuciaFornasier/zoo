@@ -2,7 +2,6 @@
 
 public class Pinguino:Animale
 {
-    private double velocitaNuoto;
     public double VelocitaNuoto
     {
         get=> VelocitaNuoto;
