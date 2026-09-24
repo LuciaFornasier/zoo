@@ -1,20 +1,22 @@
 ﻿namespace Zoo;
 
-public class Pinguino
+public class Pinguino:Animale
 {
-    private double VelocitaNuoto;
-
-    public Pinguino()
+    private double velocitaNuoto;
+    public double VelocitaNuoto
     {
-        VelocitaNuoto = 0;
+        get=> VelocitaNuoto;
+        set=> VelocitaNuoto = value;
     }
 
-    public Pinguino(double VelocitaNuoto)
-    {
-        this.VelocitaNuoto = VelocitaNuoto;
-    }
     public double Nuoto()
     {
         return VelocitaNuoto;
     }
+
+    public override string FaiVerso()
+    {
+        return "Squittio acuto!";
+    }
+    
 }
